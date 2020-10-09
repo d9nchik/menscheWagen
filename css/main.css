@@ -280,6 +280,10 @@ footer a {
   margin: 10px;
 }
 
+.can-be-interesting {
+  display: flex;
+}
+
 @media (max-width: 1280px) {
   .footer-block {
     width: 46%;
