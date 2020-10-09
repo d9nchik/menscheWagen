@@ -284,6 +284,30 @@ footer a {
   display: flex;
 }
 
+#sticky-buttons {
+  width: 200px;
+  position: fixed;
+  right: 32px;
+  top: 50%;
+  bottom: auto;
+}
+
+.sticky-button {
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-top: 10px;
+  color: white;
+  background-color: #ea5d1a;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.sticky-button > img {
+  width: 27px;
+  height: 27px;
+}
+
 @media (max-width: 1280px) {
   .footer-block {
     width: 46%;
