@@ -280,10 +280,6 @@ footer a {
     margin: 10px;
 }
 
-.can-be-interesting {
-    /*display: flex;*/
-}
-
 #sticky-buttons {
     position: fixed;
     right: 32px;
