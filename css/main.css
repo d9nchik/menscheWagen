@@ -414,7 +414,6 @@ h1 {
     position: relative;
     width: 28%;
     margin-left: 5%;
-    /*#6a767d*/
 }
 
 .interesting-item h3 {
@@ -431,9 +430,24 @@ h1 {
     font-weight: 700;
 }
 
-.interesting-item img {
-    max-width: 640px;
+.interesting-item .sizeable {
+    display: inline-block;
+    overflow: hidden;
     width: 100%;
+    max-width: 640px;
+}
+
+.interesting-item img {
+    transition: 1s;
+    width: 100%;
+}
+
+.interesting-item:hover {
+    color: #6a767d;
+}
+
+.interesting-item:hover img {
+    transform: scale(1.2);
 }
 
 .interesting-item:nth-child(even) {
