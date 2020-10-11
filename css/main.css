@@ -413,8 +413,7 @@ h1 {
 .interesting-item {
     position: relative;
     width: 28%;
-    /*float: left;*/
-    margin-right: 5%;
+    margin-left: 5%;
     color: #6a767d;
 }
 
@@ -446,6 +445,10 @@ h1 {
         font-size: 56px;
         line-height: 64px;
     }
+
+    .interesting-item {
+        width: 44%;
+    }
 }
 
 @media (max-width: 560px) {
@@ -464,6 +467,11 @@ h1 {
 
     #quick-info p {
         margin-bottom: 0;
+    }
+
+    #can-be-interesting .interesting-item {
+        width: 90%;
+        float: none;
     }
 }
 
