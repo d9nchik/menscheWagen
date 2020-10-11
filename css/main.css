@@ -393,7 +393,22 @@ h1 {
     font-weight: 400;
     line-height: 20px;
 }
+
 /*End quick info*/
+
+/*Start may be interesting*/
+#can-be-interesting h2 {
+    line-height: 36px;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#can-be-interesting h2 b {
+    font-weight: 700;
+}
+
+/*End may be interesting*/
 
 /*Begin Car Selector*/
 
