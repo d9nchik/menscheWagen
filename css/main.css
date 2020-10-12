@@ -400,6 +400,11 @@ h1 {
 /*End quick info*/
 
 /*Start may be interesting*/
+#can-be-interesting {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(0, 0, 0, 1) 100%);
+}
+
 #can-be-interesting h2 {
     line-height: 36px;
     font-size: 32px;
