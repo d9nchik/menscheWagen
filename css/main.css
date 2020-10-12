@@ -535,7 +535,9 @@ header svg {
 header ul {
     margin: 0;
     list-style: none;
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 header li {
@@ -571,7 +573,6 @@ header li {
     }
 
     header ul {
-        display: grid;
         grid-template-rows: 2fr;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -617,7 +618,6 @@ header li {
     }
 
     header ul {
-        display: grid;
         grid-template-rows: 3fr;
         grid-template-columns: repeat(2, 1fr);
     }
