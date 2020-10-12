@@ -461,6 +461,8 @@ h1 {
 }
 
 /*End may be interesting*/
+
+/*Begin Car Selector*/
 .car-description {
     clear: both;
     float: left;
@@ -513,8 +515,6 @@ h1 {
     width: 100%;
     overflow: hidden;
 }
-
-/*Begin Car Selector*/
 
 /*End Car Selector*/
 
