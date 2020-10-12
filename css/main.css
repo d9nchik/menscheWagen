@@ -494,12 +494,24 @@ h1 {
 }
 
 .scroll-car {
+    /*display: inline-block;*/
     cursor: grab;
+    width: 100%;
 }
 
 .scroll-car img {
     float: right;
     width: 50%;
+}
+
+#scroll-cars {
+    display: flex;
+    width: 300%;
+}
+
+.hide-extra {
+    width: 100%;
+    overflow: hidden;
 }
 
 /*Begin Car Selector*/
