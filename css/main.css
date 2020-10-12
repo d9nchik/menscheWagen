@@ -520,6 +520,10 @@ h1 {
 
 /*Start header*/
 header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 50fr;
