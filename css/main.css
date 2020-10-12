@@ -565,6 +565,7 @@ header li {
 
 /*Start cool buttons*/
 #buttons {
+    margin-top: 10px;
     text-align: center;
 }
 
