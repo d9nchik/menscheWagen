@@ -415,7 +415,8 @@ h1 {
 .interesting-item {
     position: relative;
     width: 28%;
-    margin-left: 5%;
+    margin: 0 0 5% 5%;
+    box-shadow: 5px 5px 2px grey;
 }
 
 .interesting-item h3 {
