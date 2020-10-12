@@ -292,6 +292,7 @@ footer a {
 }
 
 .footer-block {
+    background-image: url("../img/background.jpg");
     display: flex;
     flex-direction: column;
     float: left;
