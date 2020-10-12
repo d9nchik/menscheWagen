@@ -280,7 +280,8 @@ h2 {
 /*End Common*/
 /*Start Footer*/
 footer {
-    margin: 20px;
+    margin-left: 5%;
+    margin-right: 2%;
     position: relative;
     clear: both;
 }
@@ -404,6 +405,7 @@ h1 {
     font-size: 32px;
     font-weight: 300;
     text-align: center;
+    clear: both;
 }
 
 #can-be-interesting h2 b {
@@ -459,6 +461,46 @@ h1 {
 }
 
 /*End may be interesting*/
+.car-description {
+    clear: both;
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 40%;
+}
+
+.car-description h2 {
+    line-height: 32px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.car-description h2 b {
+    font-weight: 700;
+}
+
+.car-description h2 sub {
+    vertical-align: unset;
+    position: relative;
+    font-size: 75%;
+    top: .2em;
+}
+
+.car-description ul {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style: url("../img/plus.svg");
+}
+
+.scroll-car {
+    cursor: grab;
+}
+
+.scroll-car img {
+    float: right;
+    width: 50%;
+}
 
 /*Begin Car Selector*/
 
@@ -476,6 +518,17 @@ h1 {
 
     .interesting-item {
         width: 44%;
+    }
+
+    .car-description {
+        float: none;
+        width: 93%;
+    }
+
+    .scroll-car img {
+        float: none;
+        width: 95%;
+        margin-left: 5%;
     }
 }
 
@@ -500,6 +553,17 @@ h1 {
     #can-be-interesting .interesting-item {
         width: 90%;
         float: none;
+    }
+
+    .car-description {
+        float: none;
+        width: 93%;
+    }
+
+    .scroll-car img {
+        float: none;
+        width: 95%;
+        margin-left: 5%;
     }
 }
 
