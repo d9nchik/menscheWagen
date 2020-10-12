@@ -39,6 +39,25 @@ window.onload = requestAnimationFrame(function scroll(time) {
 });
 
 function animate(percentOfMove) {
-    // console.log(percentOfMove);
     movePart.setAttribute('style', 'margin-left: ' + percentOfMove + '%');
+}
+
+function nextCar() {
+    previous = performance.now();
+    position++;
+    if (position === NUMBER_OF_POSITIONS) {
+        isBack = true;
+        position = NUMBER_OF_POSITIONS - 1;
+    }
+    animate(PERCENT_OF_MOVE * position);
+}
+
+function previousCar() {
+    previous = performance.now();
+    position--;
+    if (position === -1) {
+        isBack = false;
+        position = 0;
+    }
+    animate(PERCENT_OF_MOVE * position);
 }
