@@ -402,6 +402,10 @@ h1 {
 
 /*Start may be interesting*/
 
+#can-be-interesting {
+    margin: 5%;
+}
+
 #can-be-interesting h2 {
     line-height: 36px;
     font-size: 32px;
@@ -419,7 +423,7 @@ h1 {
 .interesting-item {
     position: relative;
     width: 28%;
-    margin: 0 0 5% 5%;
+    margin: 0 2.5% 5% 2.5%;
     box-shadow: 5px 5px 2px grey;
 }
 
@@ -705,6 +709,7 @@ header li:hover {
 
     #can-be-interesting .interesting-item {
         width: 90%;
+        margin: 0 auto 0 auto;
         float: none;
     }
 
