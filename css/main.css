@@ -543,6 +543,7 @@ header {
 
     background-color: #232f3e;
     color: white;
+    padding: 10px 0 10px 10px;
 }
 
 header svg {
@@ -555,9 +556,13 @@ header ul {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(6, 1fr);
+    height: 100%;
 }
 
 header li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 5% 0 5%;
     font-size: 2vh;
 }
@@ -674,6 +679,7 @@ header li:hover {
     }
 
     header li {
+        display: inline;
         margin: 5%;
         font-size: 1.5em;
     }
@@ -719,6 +725,7 @@ header li:hover {
     }
 
     header li {
+        display: inline;
         margin: 5%;
         font-size: 1.5em;
     }
