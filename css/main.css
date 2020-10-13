@@ -345,7 +345,6 @@ footer a {
 
 .movable-sticky-button {
     display: flex;
-    /*margin-left: 85%;*/
 }
 
 #sticky-buttons:hover .movable-sticky-button {
