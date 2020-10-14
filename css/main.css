@@ -753,7 +753,7 @@ header li:hover {
     }
 
     #quick-info {
-        margin: 0;
+        margin: 0 2.5% 0 2.5%;
     }
 
     #quick-info p {
