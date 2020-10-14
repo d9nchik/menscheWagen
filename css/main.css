@@ -421,6 +421,11 @@ h1 {
 /*End quick info*/
 
 /*Start may be interesting*/
+#interesting-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
 
 #can-be-interesting {
     margin: 5%;
@@ -442,8 +447,8 @@ h1 {
 
 .interesting-item {
     position: relative;
-    width: 28%;
-    margin: 0 2.5% 5% 2.5%;
+    width: 90%;
+    margin: 0 auto 5% auto;
     box-shadow: 5px 5px 2px grey;
 }
 
@@ -466,10 +471,23 @@ h1 {
     overflow: hidden;
     width: 100%;
     max-width: 640px;
+    position: relative;
 }
+
+.interesting-item .sizeable:before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* initial ratio of 1:1*/
+}
+
 
 .interesting-item img {
     transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
 }
 
@@ -479,14 +497,6 @@ h1 {
 
 .interesting-item:hover img {
     transform: scale(1.2);
-}
-
-.interesting-item:nth-child(even) {
-    float: left;
-}
-
-.interesting-item:nth-child(odd) {
-    float: right;
 }
 
 .interesting-item input {
@@ -691,8 +701,9 @@ header li:hover {
         line-height: 64px;
     }
 
-    .interesting-item {
-        width: 44%;
+    #interesting-grid {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .car-description {
@@ -740,10 +751,8 @@ header li:hover {
         margin-bottom: 0;
     }
 
-    #can-be-interesting .interesting-item {
-        width: 90%;
-        margin: 0 auto 0 auto;
-        float: none;
+    #interesting-grid {
+        display: block;
     }
 
     .car-description {
@@ -769,3 +778,4 @@ header li:hover {
     }
 }
 
+/*TODO: make line height correct + make menu hide on small devices*/
