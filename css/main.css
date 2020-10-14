@@ -457,7 +457,7 @@ h1 {
 }
 
 .interesting-item p {
-    line-height: 28px;
+    line-height: 35px;
     font-size: 24px;
     font-weight: 300;
 }
@@ -491,6 +491,13 @@ h1 {
     width: 100%;
 }
 
+.interesting-item p, .interesting-item h3, .interesting-item input {
+    margin-left: 2.5%;
+}
+
+.interesting-item p {
+}
+
 .interesting-item:hover {
     color: #6a767d;
 }
@@ -500,6 +507,7 @@ h1 {
 }
 
 .interesting-item input {
+    margin-top: 2.5%;
     border-radius: 24px;
     width: 80%;
 }
@@ -754,6 +762,14 @@ header li:hover {
 
     #interesting-grid {
         display: block;
+    }
+
+    .interesting-item p {
+        line-height: 28px;
+    }
+
+    .interesting-item input {
+        margin-bottom: 5%;
     }
 
     .car-description {
