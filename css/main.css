@@ -306,8 +306,8 @@ footer a {
 .sticky-button {
     position: relative;
     box-sizing: border-box;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 18px;
     padding-top: 10px;
     margin-top: 10px;
     color: white;
