@@ -64,8 +64,7 @@ function previousCar() {
 
 let lastScrollTop = 0;
 const MENU = document.getElementsByTagName('header')[0];
-// element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
-window.addEventListener("scroll", () => { // or window.addEventListener("scroll"....
+window.addEventListener("scroll", () => {
     if (window.innerWidth > 560) {
         return;
     }
