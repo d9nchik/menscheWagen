@@ -1,3 +1,4 @@
+'use strict';
 let position = 0
 const NUMBER_OF_POSITIONS = 3;
 const PERCENT_OF_MOVE = -100;
